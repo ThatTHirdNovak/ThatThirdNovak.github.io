@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b5c3ff;
+    color: #333;
+}
+
+html {
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.bubble {
+    background-color: rgb(53, 66, 134);
+    border-radius: 30px; 
+    padding: 40px;
+    max-width: 600px;
+    margin: 20px 0;
+    color: white;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.intro-bubble {
+    max-width: 1000px;
+}
+
+.quote {
+    font-size: 1.8em;
+    margin-bottom: 40px;
+}
+
+.description {
+    font-size: 1.2em;
+}
+
+#aboutMe h1, #goals h1, #projects h1 {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 20px 0;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.learn-more-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.learn-more-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #2a3e53;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/** About Styles *****/
+
+/* Add styles specific to the about page */
+.about-content {
+    background-color: #ffffff; /* White background for the about page */
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-content p {
+    margin: 20px 0; /* Space around paragraphs */
+    line-height: 1.6; /* Improved readability */
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+.back-button {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.project {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project h2 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.project-description {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
